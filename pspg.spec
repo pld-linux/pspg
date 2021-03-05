@@ -8,6 +8,8 @@ Source0:	https://github.com/okbob/pspg/archive/%{version}/%{name}-%{version}.tar
 # Source0-md5:	46430135d29f16a40511d56f4071af07
 URL:		https://github.com/okbob/pspg
 BuildRequires:	ncurses-devel
+BuildRequires:	pkgconfig
+BuildRequires:	postgresql-devel
 BuildRequires:	readline-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

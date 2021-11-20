@@ -1,7 +1,7 @@
 Summary:	A unix pager optimized for psql
 Name:		pspg
 Version:	4.3.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/Databases
 Source0:	https://github.com/okbob/pspg/archive/%{version}/%{name}-%{version}.tar.gz
